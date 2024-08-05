@@ -1,0 +1,78 @@
+/* General style settings */
+html, body {
+    height: 100%; /* To cover the entire height of the page */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/background.jpg');
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    background-attachment: fixed; /* Prevents the background from scrolling */
+    color: #fff; /* Sets the text color to white for contrast */
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5); /* Opacity of the header background */
+    color: #fff;
+    padding: 100px 0; /* Height of the header section */
+    text-align: center;
+}
+
+header .header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header h1, header h2 {
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu style settings */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7); /* Opacity of the menu background */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Main content style settings */
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.5); /* Opacity of the content background */
+    min-height: 100vh; /* Ensures the content has at least the height of the page */
+    padding-bottom: 50px; /* Space left for the footer */
+}
+
+/* Footer style settings */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Opacity of the footer background */
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
