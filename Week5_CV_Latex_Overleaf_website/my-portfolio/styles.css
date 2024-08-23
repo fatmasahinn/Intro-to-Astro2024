@@ -76,3 +76,22 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Sosyal medya ikonlarının stil ayarları */
+.social-media-icons {
+    display: flex;
+    justify-content: center;  /* İkonları merkeze hizalar */
+    gap: 20px;  /* İkonlar arasındaki boşluğu ayarlar */
+    margin-top: 20px;  /* Üstten boşluk bırakır */
+}
+
+.social-media-icons img {
+    width: 40px;  /* İkon genişliği */
+    height: 40px;  /* İkon yüksekliği */
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.social-media-icons img:hover {
+    transform: scale(1.1);  /* İkonun üzerine gelince büyümesini sağlar */
+}
